@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo"></div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="chiragresume.pdf" download class="resume-btn">Resume</a></li>
+      </ul>
+      <div class="menu-icons">
+        <button class="dark-mode-toggle" onclick="toggleDarkMode()" id="modeIcon">🌙</button>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+      </div>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <h1>Hello, I'm <span>Chirag Rathod</span></h1>
+    <p>Software Developer</p>
+  </section>
+
+  <section id="about" class="about">
+  <h2>About Me</h2>
+  <div class="about-container">
+    <div class="about-image">
+      <img src="photo1.jpg" alt="Chirag Rathod">
+    </div>
+    <div class="about-text">
+      <p>
+        Enthusiastic Computer Engineering student skilled in Java, Python, JavaScript, and SQL,
+        with a strong foundation in Data Structures, Algorithms, and Object-Oriented Programming.
+        Experienced in front-end development using HTML, CSS, and JavaScript. Adept at problem-solving,
+        effective communication, and collaborative teamwork. Passionate about continuous learning and
+        building real-world software solutions.
+      </p>
+    </div>
+  </div>
+  </section>
+
+  <section id="education" class="education">
+  <h2>Education</h2>
+  <div class="edu-timeline">
+    <div class="edu-item">
+      <h3>Bachelor of Engineering in Computer Science</h3>
+      <p>Government Engineering College(GTU), Rajkot || 2022 – present</p>
+      <p>CGPA: 7.59</p>
+    </div>
+    <div class="edu-item">
+      <h3>12th-GSHSEB</h3>
+      <p>Shree S.V.Virani HighSchool || 2020 – 2022</p>
+      <p>Percentage: 71.69%</p>
+    </div>
+    <div class="edu-item">
+      <h3>10th-GSHSEB</h3>
+      <p>Shree S.V.Virani HighSchool || 2020</p>
+      <p>Percentage: 75.33%</p>
+    </div>
+  </div>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Java</li>
+      <li>Python</li>
+      <li>MySQL</li>
+      <li>DSA</li>
+      <li>OOPs</li>
+    </ul>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <h3>Portfolio Website</h3>
+      <p>Built a responsive portfolio using HTML, CSS, and JavaScript.</p>
+    </div>
+  </section>
+
+  <section id="socials" class="socials">
+  <h2>Connect with Me</h2>
+  <div class="social-links">
+    <a href="https://www.linkedin.com/in/chirag-rathod-1060a52b5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" title="LinkedIn">
+      <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="https://leetcode.com/chiragrathod3536" target="_blank" title="LeetCode">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode" class="leetcode-icon">
+    </a>
+    <a href="rathodchirag3536@gmail.com" title="Gmail">
+      <i class="fas fa-envelope"></i>
+    </a>
+    <a href="https://wa.me/9157513889" target="_blank" title="WhatsApp">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+  </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Chirag Rathod. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
